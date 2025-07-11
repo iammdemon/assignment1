@@ -58,7 +58,7 @@
 }
 
 .btn-primary {
-  background-color: #4d47ff;
+  background-color: #6e65ff;
   color: #ffffff;
 }
 
@@ -159,7 +159,7 @@
   font-family: 'Inter', sans-serif;
   font-size: 34px;
   font-weight: 900;
-  color: #4d47ff;
+  color: #6e65ff;
   line-height: 1.5;
 }
 
@@ -269,7 +269,7 @@
   font-size: 80px;
   font-weight: 700;
   line-height: 1.21;
-  color: #4d47ff;
+  color: #6e65ff;
   margin-bottom: 0;
 }
 
@@ -467,7 +467,7 @@
   font-size: 100px;
   font-weight: 900;
   line-height: 1.21;
-  color: #4d47ff;
+  color: #6e65ff;
 }
 
 .footer-description {
