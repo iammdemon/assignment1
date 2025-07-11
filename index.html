@@ -1,183 +1,204 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Assignment 1</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-  <div class="hero-background">
-    <div class="header">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo">EMON</div>
-          <button class="btn btn-primary">Sign Up</button>
-        </div>
-      </div>
-    </div>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Dark UI Template</title>
+    <link rel="stylesheet" href="style.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <div>
-      <div class="hero">
+      <!-- header -->
+      <header>
         <div class="container">
-          <div class="hero-content">
-            <h1 class="hero-title">Best UI theme for Agencies!</h1>
-            <button class="btn btn-primary btn-large">Hire Now</button>
+          <nav class="nav">
+            <div class="header-logo">
+              <h1>Emon Agency</h1>
+            </div>
+            <div>
+              <button class="btn">Sign Up</button>
+            </div>
+          </nav>
+          <div class="hero">
+            <h2>Cool Dark UI Template for </h2>
+            <h2>Webflow Agencies! </h2>
+            <button class="btn">Stay FOcused</button>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </header>
 
-  <div class="feature-preview">
-    <div class="container">
-      <div class="feature-content">
-        <div class="feature-text">
-          <h2 class="feature-title">See how it works</h2>
-          <p class="feature-description">Explore the live preview and imagine your brand in this bold new look.</p>
-          <button class="btn btn-primary">Launch Live</button>
-        </div>
-        <div class="feature-image">
-          <img src="./img/image 1-1.png" class="feature-img">
-        </div>
-      </div>
-    </div>
-  </div>
+      <main>
+     
+     
 
-  <div class="stats">
-    <div class="container">
-      <div class="stats-content">
-        <h2 class="stats-title">Joined Thousands of Productive Users</h2>
-        <div class="stats-grid">
-          <div class="stat-item">
-            <div class="stat-number">2K</div>
-            <div class="stat-label">Active Users</div>
+        <!-- Action Section -->
+        <section class="container">
+          <div class="action-section">
+            <div class="action-container">
+              <h2>See It in Action</h2>
+              <p>
+                Explore the live preview and imagine your brand in this bold new
+                look.
+              </p>
+              <button class="btn">Launch Live Preview</button>
+            </div>
+            <div class="image-container">
+              <img src="./assets/image-1.png" alt="" />
+            </div>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">1M+</div>
-            <div class="stat-label">Focus Sessions</div>
+        </section>
+        <!-- Productive Users -->
+        <section class="container productive">
+          <div class="productive-title">
+            <h2>Joined Thousands of Productive Users</h2>
           </div>
-          <div class="stat-item">
-            <div class="stat-number">95%</div>
-            <div class="stat-label">Satisfaction Rate</div>
+          <div class="productive-section">
+            <div class="productive-card">
+              <h3>50K</h3>
+              <p>Active Users</p>
+            </div>
+            <div class="productive-card">
+              <h3>2M+</h3>
+              <p>Focus Sessions</p>
+            </div>
+            <div class="productive-card">
+              <h3>95%</h3>
+              <p>Satisfaction Rate</p>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </section>
 
-  <div class="testimonials">
-    <div class="container">
-      <h2 class="testimonials-title">What our users say</h2>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="rating">
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-          </div>
-          <div class="testimonial-content">
-            <h3 class="testimonial-heading">Loved by Developers</h3>
-            <p class="testimonial-text">This template instantly leveled up our presence." – Studio Vertex</p>
-          </div>
-          <div class="testimonial-author">
-            <img src="./img/Avatar.png" class="author-avatar">
-            <div class="author-info">
-              <div class="author-name">Reviewer name</div>
-              <div class="author-date">Mark Zuckerberg</div>
+        <!-- What our users say -->
+
+      <div class="testimonials-container container">
+        <h2 class="section-title">What our users say</h2>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★★★★★</span>
+                    
+                </div>
+                
+                <h3 class="testimonial-title">Loved by Designers</h3>
+                
+                <p class="testimonial-text">
+                    This template instantly leveled up our presence." – Studio Vertex
+                </p>
+                
+                <div class="reviewer-info">
+                    <img class="reviewer-avatar" src="./assets//Shape.png" alt="">
+                    <div class="reviewer-details">
+                        <div class="reviewer-name">Reviewer name</div>
+                        <div class="reviewer-date">Date</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★★★★★</span>
+                    
+                </div>
+                
+                <h3 class="testimonial-title">Loved by Designers</h3>
+                
+                <p class="testimonial-text">
+                    This template instantly leveled up our presence." – Studio Vertex
+                </p>
+                
+                <div class="reviewer-info">
+                    <img class="reviewer-avatar" src="./assets//Shape.png" alt="">
+                    <div class="reviewer-details">
+                        <div class="reviewer-name">Reviewer name</div>
+                        <div class="reviewer-date">Date</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="stars">
+                    <span class="star">★★★★★</span>
+                   
+                </div>
+                
+                <h3 class="testimonial-title">Loved by Designers</h3>
+                
+                <p class="testimonial-text">
+                    This template instantly leveled up our presence." – Studio Vertex
+                </p>
+                
+                <div class="reviewer-info">
+                    <img class="reviewer-avatar" src="./assets//Shape.png" alt="">
+                    <div class="reviewer-details">
+                        <div class="reviewer-name">Reviewer name</div>
+                        <div class="reviewer-date">Date</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Ready to Focus -->
+        <div class="container">
+          <div class="focus-container">
+            <h1>Ready to focus better</h1>
+            <p>
+              This template instantly leveled up our presence.” – Studio Vertex
+            </p>
+            <button class="btn">Get Started Free</button>
+            <div>
+              <img src="./assets/focus.png" alt="" />
             </div>
           </div>
         </div>
+        <!-- contact -->
 
-        <div class="testimonial-card">
-          <div class="rating">
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-          </div>
-          <div class="testimonial-content">
-            <h3 class="testimonial-heading">Loved by Designers</h3>
-            <p class="testimonial-text">This template instantly leveled up our presence." – Studio Vertex</p>
-          </div>
-          <div class="testimonial-author">
-            <img src="./img/Avatar.png" class="author-avatar">
-            <div class="author-info">
-              <div class="author-name">Emon</div>
-              <div class="author-date">Date</div>
+       <div class="contact-container container">
+        <div class="left-section">
+            <h1>Let's Get in Touch</h1>
+        </div>
+        
+        <div class="right-section">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com">
             </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="rating">
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-            <span class_="star"></span>
-            <span class="star"></span>
-            <span class="star"></span>
-          </div>
-          <div class="testimonial-content">
-            <h3 class="testimonial-heading">Loved by Amazon</h3>
-            <p class="testimonial-text">This template instantly leveled up our presence." – Studio Vertex</p>
-          </div>
-          <div class="testimonial-author">
-            <img src="./img/Avatar.png" class="author-avatar">
-            <div class="author-info">
-              <div class="author-name">Jeff Bezoz</div>
-              <div class="author-date">Date</div>
+            
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="full name">
             </div>
-          </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="write your message...."></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Get in Touch</button>
         </div>
-      </div>
     </div>
-  </div>
+      </main>
 
+      <!-- footer -->
 
-  <div class="contact">
-    <div class="container">
-      <div class="contact-content">
-        <h2 class="contact-title">Let's Get in Touch</h2>
-        <form class="contact-form">
-          <div class="form-group">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" class="form-input" placeholder="example@email.com">
-          </div>
-          <div class="form-group">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" id="name" class="form-input" placeholder="full name">
-          </div>
-          <div class="form-group">
-            <label for="message" class="form-label">Message</label>
-            <textarea id="message" class="form-textarea" placeholder="write your message...."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Get in Touch</button>
-        </form>
-      </div>
+ <footer class="footer">
+        <section class="footer-section">
+            <h2 class="logo">Emon Agency</h2>
+            <p class="text">
+                Ready to elevate your online presence? Contact us today to discuss
+                your project and discover how we can bring your vision to life.
+            </p>
+            <div class="link">
+                <p>Home</p>
+                <p>About</p>
+                <p>How it Works</p>
+                <p>Services</p>
+            </div>
+        </section>
+    </footer>
     </div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <div class="footer-logo">EMON</div>
-          <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        </div>
-        <div class="footer-nav">
-          <a href="#" class="footer-link">Home</a>
-          <a href="#" class="footer-link">About</a>
-          <a href="#" class="footer-link">How it Works</a>
-          <a href="#" class="footer-link">Services</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   </body>
 </html>
