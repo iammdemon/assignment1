@@ -48,6 +48,13 @@
   cursor: pointer;
   border: none;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  padding: 14px 34px;
+  font-size: 17px;
+  background-color: #3a36cc;
 }
 
 .btn-primary {
